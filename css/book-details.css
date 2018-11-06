@@ -3,10 +3,11 @@
 }
 .details-text-container {
   padding: 20px;
+  align-items: flex-start;
 }
 
-.btn-container {
-  
+.book-details img {
+  align-self: center;
 }
 
 .book-details .on-sale {
