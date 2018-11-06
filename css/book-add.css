@@ -1,0 +1,19 @@
+
+.add-book .search-results {
+    padding: 10px;
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+
+.add-book .book-res {
+    border: 1px solid black;
+}
+
+.add-book .book-res .res-text:hover {
+    transition: 0.2s;
+    cursor: default;
+}
+.add-book .book-res .res-text:hover {
+    color: blue;
+}

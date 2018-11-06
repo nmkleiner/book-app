@@ -1,0 +1,38 @@
+.book-review {
+  padding: 10px;
+  background-color: #fff;
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-review button {
+  align-self: center;
+}
+
+.book-review .name,
+.date {
+  font-weight: 700;
+}
+
+.review-add {
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: lightcyan;
+  width: fit-content;
+  margin: 0 auto 10px;
+}
+
+.review-add input,
+textarea {
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.review-add textarea {
+  height: 100px;
+}

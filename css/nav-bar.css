@@ -1,0 +1,24 @@
+header .nav-bar {
+  text-align: left;
+}
+header {
+  margin-bottom: 10px;
+}
+header .nav-bar .link {
+  border-right: 1px solid black;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+header .nav-bar .link:hover {
+  background-color: orangered;
+  color: black;
+}
+
+header .nav-bar a:hover {
+  text-decoration: none;
+}
+
+.router-link-active {
+  color: black;
+}

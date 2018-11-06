@@ -1,0 +1,42 @@
+.book-details {
+  padding: 10px;
+}
+.details-text-container {
+  padding: 20px;
+}
+
+.btn-container {
+  
+}
+
+.book-details .on-sale {
+  color: gold;
+  font-size: 1.3rem;
+  font-family: cursive;
+  text-decoration: underline;
+}
+
+.book-details .show-more {
+  margin: 0 auto;
+}
+.book-details button {
+  width: fit-content;
+}
+
+.book-details img {
+  align-self: center;
+}
+
+.book-details span,
+h3 {
+  font-size: 1.2rem;
+}
+
+
+@media (max-width: 500px) {
+  .book-details {
+  }
+  .book-details img {
+    width: 100%;
+  }
+}
